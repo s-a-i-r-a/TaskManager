@@ -1,4 +1,4 @@
-module GUI {
+module forlorn.taskx {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -11,6 +11,6 @@ module GUI {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens GUI to javafx.fxml;
-    exports GUI;
+    opens StartingPage to javafx.fxml;
+    exports StartingPage;
 }

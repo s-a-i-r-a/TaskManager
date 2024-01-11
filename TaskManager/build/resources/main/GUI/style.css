@@ -1,0 +1,22 @@
+#MainTabPane .tab-pane {
+    -fx-tab-min-width: 30; /* Set the minimum width for each tab */
+    -fx-tab-max-width: 30; /* Set the maximum width for each tab */
+    -fx-tab-min-height: 80; /* Set the minimum height for each tab */
+    -fx-tab-max-height: 80; /* Set the maximum height for each tab */
+}
+
+#MainTabPane .tab {
+    -fx-background-color: #972a2a; /* Set the background color for each tab */
+    -fx-padding: 5 10 5 10; /* Set padding for each tab */
+}
+
+#MainTabPane .tab .tab-label {
+    -fx-alignment: CENTER; /* Align the text to the center */
+    -fx-graphic-text-gap: 5; /* Set the gap between text and graphic */
+    -fx-text-fill: black; /* Set the text color */
+}
+
+#MainTabPane .tab:selected {
+    -fx-background-color: #858383; /* Set the background color for the selected tab */
+    -fx-text-fill: black; /* Set the text color for the selected tab */
+}

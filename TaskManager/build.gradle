@@ -7,7 +7,7 @@ plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.9.22'
 }
 
-group 'Ari'
+group 'forlorn'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -26,8 +26,8 @@ tasks.withType(JavaCompile) {
 }
 
 application {
-    mainModule = 'GUI'
-    mainClass = 'GUI.TaskManagerApp'
+    mainModule = 'StartingPage'
+    mainClass = 'StartingPage.TaskManagerApp'
 }
 
 javafx {
